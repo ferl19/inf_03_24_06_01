@@ -1,0 +1,64 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1, h2 {
+    text-align: center;
+    font-style: italic;
+}
+
+#background {
+    position: absolute;
+    display: block;
+    left: 15%;
+    width: 70%;
+    margin: auto;
+    z-index: -1;
+}
+
+#baner {
+    background-color: rgba(60, 120, 160, 0.9);
+    color: white;
+    font-size: 150%;
+    padding: 10px;
+}
+
+#lewy {
+    float: left;
+    background-color: rgb(0, 100, 0, 0.6);
+    margin: 2%;
+    width: 75%;
+    height: 600px;
+    font-size: 120%;
+    overflow: auto;
+    box-shadow: 10px 10px 7px dimgray;
+}
+
+#prawyg,
+#prawyd {
+    float: right;
+    background-color: rgb(0, 100, 0, 0.6);
+    margin: 1%;
+    width: 15%;
+    height: 300px;
+    box-shadow: 10px 10px 7px dimgray;
+}
+
+#stopka {
+    clear: both;
+    background-color: rgb(60, 120, 160, 0.9);
+    color: white;
+    padding: 10px;
+}
+
+a, .terminy {
+    color: white;
+}
+
+dd {
+    padding: 1%;
+}
+
+dd:hover {
+    background-color: lightgreen;
+}
